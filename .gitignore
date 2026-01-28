@@ -1,0 +1,62 @@
+########################################
+# Operating System / Editor Files
+########################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
+
+########################################
+# Terraform Files
+########################################
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+crash.log
+*.backup
+*.lock.hcl
+
+########################################
+# Terraform Plan Output
+########################################
+*.tfplan
+
+########################################
+# AWS Credentials & Sensitive Files
+########################################
+.aws/
+credentials
+config
+*.pem
+*.key
+
+########################################
+# Environment Variables
+########################################
+.env
+.env.*
+.envrc
+
+########################################
+# Logs & Temporary Files
+########################################
+*.log
+logs/
+tmp/
+*.tmp
+
+########################################
+# User Data Artifacts 
+########################################
+user-data/*.log
+user-data/*.bak
+
+########################################
+# GitHub Actions (local runner artifacts)
+########################################
+.act/
