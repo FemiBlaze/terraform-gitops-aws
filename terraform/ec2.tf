@@ -1,6 +1,6 @@
 resource "aws_instance" "web" {
-  ami           = "ami-0c02fb55956c7d316"
-  instance_type = "t2.micro"
+  ami           = "ami-0b6c6ebed2801a5cb"
+  instance_type = "t3.micro"
 
   vpc_security_group_ids = [
     aws_security_group.web_sg.id
