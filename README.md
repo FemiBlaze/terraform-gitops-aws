@@ -63,20 +63,20 @@ AWS Infrastructure (VPC, EC2, Networking)
 
 terraform-gitops-aws/
 │
-├── terraform/ # Terraform root module
-│ ├── provider.tf # AWS provider configuration
-│ ├── vpc.tf # VPC, subnet, IGW, routing
-│ ├── security-group.tf # Security group rules
-│ ├── ec2.tf # EC2 instance definition
-│ ├── outputs.tf # Terraform outputs
+├── terraform/                     # Terraform root module
+│   ├── provider.tf                # AWS provider configuration
+│   ├── vpc.tf                     # VPC, subnet, IGW, routing
+│   ├── security-group.tf          # Security group rules
+│   ├── ec2.tf                     # EC2 instance definition
+│   ├── outputs.tf                 # Terraform outputs
 │
 ├── .github/
-│ └── workflows/
-│ ├── terraform-apply.yml # Auto apply on push
-│ └── terraform-destroy.yml # Manual cleanup
+│   └── workflows/
+│       ├── terraform-apply.yaml    # Auto apply on push
+│       └── terraform-destroy.yaml  # Manual cleanup
 │
 ├── user-data/
-│ └── install-nginx.sh # EC2 bootstrap script
+│   └── install-nginx.sh           # EC2 bootstrap script
 │
 ├── .gitignore
 └── README.md
