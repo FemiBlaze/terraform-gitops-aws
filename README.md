@@ -155,6 +155,23 @@ Infrastructure Provisioned via Terraform & GitHub Actions
 
 ---
 
+## Screenshots
+
+### ✅ GitHub Actions – Terraform Apply
+![Terraform Apply Success](screenshots/terraform-apply-success.png)
+
+### 🧹 GitHub Actions – Terraform Destroy
+![Terraform Destroy Success](screenshots/terraform-destroy-success.png)
+
+### ☁️ AWS EC2 Instance Running
+![AWS EC2 Running](screenshots/aws-ec2-running.png)
+
+### 🌐 Application Accessed via Browser
+![Nginx Browser Output](screenshots/nginx-browser.png)
+
+
+---
+
 ## Cleanup (IMPORTANT)
 
 To avoid AWS charges:
