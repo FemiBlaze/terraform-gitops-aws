@@ -61,6 +61,8 @@ AWS Infrastructure (VPC, EC2, Networking)
 
 ## Project Structure
 
+
+```text
 terraform-gitops-aws/
 │
 ├── terraform/                     # Terraform root module
@@ -72,15 +74,15 @@ terraform-gitops-aws/
 │
 ├── .github/
 │   └── workflows/
-│       ├── terraform-apply.yaml    # Auto apply on push
-│       └── terraform-destroy.yaml  # Manual cleanup
+│       ├── terraform-apply.yml    # Auto apply on push
+│       └── terraform-destroy.yml  # Manual cleanup
 │
 ├── user-data/
 │   └── install-nginx.sh           # EC2 bootstrap script
 │
 ├── .gitignore
 └── README.md
-
+```
 
 ---
 
